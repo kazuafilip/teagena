@@ -1,0 +1,16 @@
+// Helper function to add two numbers
+function addNumbers(a, b) {
+  return a + b;
+}
+
+// Helper function to concatenate two strings
+function concatenateStrings(str1, str2) {
+  return str1 + str2;
+}
+
+// Example usage
+let result1 = addNumbers(5, 3);
+let result2 = concatenateStrings("Hello, ", "World!");
+
+console.log("Result of addition:", result1);
+console.log("Concatenated strings:", result2);
